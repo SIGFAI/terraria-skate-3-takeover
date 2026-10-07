@@ -1,0 +1,84 @@
+{
+  "id": "sigf/terraria-skate-3-takeover",
+  "version": "1.0.0",
+  "name": "Skate 3 Takeover",
+  "tagline": "Bring Skate 3 into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "terraria",
+      "role": "host",
+      "engine": "Terraria 1.4.4 + tModLoader (C#, .NET 8)",
+      "apps": {
+        "steam": "1281930"
+      }
+    },
+    {
+      "game": "skate3",
+      "role": "guest",
+      "label": "Skate 3",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "tmodloader"
+    }
+  ],
+  "install": [
+    {
+      "game": "terraria",
+      "strategy": "game-dir-snapshot",
+      "files": [
+        {
+          "src": "terraria-skate-3-takeover.zip",
+          "dst": "{docs}/My Games/Terraria/tModLoader/Mods",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "Sigf.tmod",
+              "sha256": "7796f1f96e479b1ca5aa25cae2c764f56e288787918591688dfd6d31ca374dda"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/terraria-skate-3-takeover/releases/download/v1.0.0/terraria-skate-3-takeover.zip",
+          "sha256": "8d4ffce3f7fe7dc95e7b226001a345c375f47d823089142a7d3b7337b41e9e96",
+          "size": 116311
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "terraria",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "terraria-skate-3-takeover.zip",
+      "url": "https://github.com/SIGFAI/terraria-skate-3-takeover/releases/download/v1.0.0/terraria-skate-3-takeover.zip",
+      "sha256": "8d4ffce3f7fe7dc95e7b226001a345c375f47d823089142a7d3b7337b41e9e96",
+      "size": 116311
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/terraria-skate-3-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-07-b8b4bf17.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "terraria",
+    "status": "draft"
+  },
+  "built_at": "2026-10-07T07:16:32.475Z",
+  "notes": [
+    "Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods, then enable it in tModLoader's Mods menu. Start a world and grab the Skate Deck to throw boards at the skater punks."
+  ]
+}
