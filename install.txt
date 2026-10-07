@@ -1,0 +1,1 @@
+Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods, then enable it in tModLoader's Mods menu. Start a world and grab the Skate Deck to throw boards at the skater punks.
